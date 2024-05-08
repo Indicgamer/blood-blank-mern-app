@@ -1,5 +1,5 @@
 import axios from "axios";
-const baseURL = 'https://blood-blank-mern-app.vercel.app/api/v1'
+const baseURL = 'https://blood-blank-mern-app.vercel.app'
 const API = axios.create({ baseURL });
 
 API.interceptors.request.use((req) => {
